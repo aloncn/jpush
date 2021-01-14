@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"strings"
 
-	"jpushgo/common"
-	"jpushgo/device"
-	"jpushgo/httplib"
-	"jpushgo/push"
-	"jpushgo/report"
+	"jpush/common"
+	"jpush/device"
+	"jpush/httplib"
+	"jpush/push"
+	"jpush/report"
 )
 
 // JPush 的 Golang 推送客户端

@@ -1,6 +1,6 @@
 package push
 
-import "jpushgo/common"
+import "jpush/common"
 
 // 推送可选项。
 type Options struct {

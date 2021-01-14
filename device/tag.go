@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"jpushgo/common"
+	"jpush/common"
 )
 
 // 查询标签列表请求结果
