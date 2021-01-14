@@ -3,7 +3,7 @@ package push
 import (
 	"testing"
 
-	"jpush/common"
+	"jpushgo/common"
 )
 
 func Test_has(t *testing.T) {

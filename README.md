@@ -1,7 +1,7 @@
 JPush API Go Client
 ====================
 
-[![GoDoc](https://godoc.org/github.com/aloncn/jpush-go?status.svg)](https://godoc.org/github.com/aloncn/jpush-go) [![Build Status](https://travis-ci.org/DeanThompson/jpush-api-go-client.svg?branch=master)](https://travis-ci.org/DeanThompson/jpush-api-go-client)
+基于 github.com/DeanThompson/jpush-api-go-client
 
 # 概述
 
@@ -9,12 +9,14 @@ JPush API Go Client
 
 官方 REST API 文档： [http://docs.jpush.cn/display/dev/REST+API](http://docs.jpush.cn/display/dev/REST+API)
 
+
+
 # 安装
 
 使用 go get 安装，无任何第三方依赖：
 
 ```sh
-go get github.com/aloncn/jpush-go
+go get github.com/aloncn/jpushgo
 ```
 
 # 使用方法
@@ -22,7 +24,7 @@ go get github.com/aloncn/jpush-go
 ## 1. 创建 JPushClient
 
 ```go
-import "github.com/aloncn/jpush-go"
+import "github.com/aloncn/jpushgo"
 
 const (
     appKey = ""
@@ -37,7 +39,7 @@ jclient := jpush.NewJPushClient(appKey, masterSecret)
 与推送有关的数据结构都在 push 包里
 
 ```go
-import "jpush/push"
+import "github.com/aloncn/jpushgo"
 ```
 
 ### 2.1 创建 Platform 对象

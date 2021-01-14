@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"jpush/common"
+	"jpushgo/common"
 )
 
 type GetAliasUsersResult struct {
