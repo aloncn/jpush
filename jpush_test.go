@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"jpush/device"
-	"jpush/push"
+	"jpush-api/device"
+	"jpush-api/push"
 )
 
 const (

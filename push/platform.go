@@ -1,6 +1,6 @@
 package push
 
-import "jpush/common"
+import "jpush-api/common"
 
 type Platform struct {
 	value []string

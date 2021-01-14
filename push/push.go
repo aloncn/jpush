@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"jpush/common"
+	"jpush-api/common"
 )
 
 type Validator interface {
