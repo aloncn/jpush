@@ -1,7 +1,7 @@
 JPush API Go Client
 ====================
 
-[![GoDoc](https://godoc.org/github.com/DeanThompson/jpush-api-go-client?status.svg)](https://godoc.org/github.com/DeanThompson/jpush-api-go-client) [![Build Status](https://travis-ci.org/DeanThompson/jpush-api-go-client.svg?branch=master)](https://travis-ci.org/DeanThompson/jpush-api-go-client)
+[![GoDoc](https://godoc.org/github.com/aloncn/jpush-go?status.svg)](https://godoc.org/github.com/aloncn/jpush-go) [![Build Status](https://travis-ci.org/DeanThompson/jpush-api-go-client.svg?branch=master)](https://travis-ci.org/DeanThompson/jpush-api-go-client)
 
 # 概述
 
@@ -37,7 +37,7 @@ jclient := jpush.NewJPushClient(appKey, masterSecret)
 与推送有关的数据结构都在 push 包里
 
 ```go
-import "github.com/aloncn/jpush-go/push"
+import "jpush/push"
 ```
 
 ### 2.1 创建 Platform 对象
